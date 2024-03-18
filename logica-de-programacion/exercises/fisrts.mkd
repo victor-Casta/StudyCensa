@@ -1,0 +1,21 @@
+## Exercises
+
+1. Escribe un programa que imprima los números del 1 al 10 en una línea separada.
+
+2. Crea un programa que calcule la suma de los primeros 100 números naturales.
+
+3. Desarrolla un programa que solicite al usuario un número entero positivo y luego imprima todos los números pares desde 2 hasta ese número.
+
+4. Escribe un programa que solicite al usuario un número entero positivo y luego imprima la tabla de multiplicar de ese número hasta el 10.
+
+5. Crea un programa que calcule el factorial de un número ingresado por el usuario.
+
+6. Desarrolla un programa que pida al usuario un número entero positivo y luego imprima todos los números primos menores o iguales a ese número.
+
+7. Escribe un programa que genere e imprima los primeros 20 términos de la secuencia de Fibonacci.
+
+8. Crea un programa que solicite al usuario una cantidad de segundos y luego convierta ese tiempo a horas, minutos y segundos.
+
+9. Desarrolla un programa que imprima la suma de los dígitos de un número entero ingresado por el usuario.
+
+10. Escribe un programa que solicite al usuario un número y luego imprima si es un número perfecto o no (un número perfecto es aquel cuya suma de sus divisores propios es igual al número).
