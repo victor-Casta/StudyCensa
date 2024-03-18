@@ -131,7 +131,7 @@ opcion = int(input(
     "Selecciona 7: Segundos Horas y minutos \n"
     "Selecciona 8: Suma de dígitos \n"
     "Selecciona 9: Numero Perfecto \n"
-    "Selecciona 10: Taabla de multiplicar \n"
+    "Selecciona 10: Taabla de multiplicar "
   ))
 
 funcion = opciones.get(opcion, opcion_por_defecto)

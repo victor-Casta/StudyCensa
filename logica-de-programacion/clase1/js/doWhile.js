@@ -1,5 +1,6 @@
-(function () {
-    var counter1 = 0;
+"use strict";
+(() => {
+    let counter1 = 0;
     do {
         counter1++;
         console.log(counter1);

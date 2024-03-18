@@ -1,4 +1,5 @@
-var i = 0;
+"use strict";
+let i = 0;
 while (i <= 20) {
     console.log(i);
     i++;
