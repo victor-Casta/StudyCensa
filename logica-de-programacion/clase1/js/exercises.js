@@ -39,4 +39,24 @@
         return factorial;
     }
     console.log(`El Factorial es: ${Factorial(3)}`);
+    //Desarrolla un programa que pida al usuario un número entero positivo y luego imprima todos los números primos menores o iguales a ese número.
+    function NumbersPrimosMenores(number) {
+        let counter = 2;
+        while (counter <= number) {
+            let IsPrimo = true;
+            let j = 2;
+            while (j < counter) {
+                if (counter % j === 0) {
+                    IsPrimo = false;
+                    break;
+                }
+                j++;
+            }
+            if (IsPrimo) {
+                console.log(counter);
+            }
+            counter++;
+        }
+    }
+    NumbersPrimosMenores(10);
 })();
