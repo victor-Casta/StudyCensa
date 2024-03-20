@@ -28,4 +28,15 @@
         }
     }
     multiplicationTable(5);
+    //Crea un programa que calcule el factorial de un número ingresado por el usuario.
+    function Factorial(number) {
+        let counter = 1;
+        let factorial = 1;
+        while (counter <= number) {
+            factorial *= counter;
+            counter++;
+        }
+        return factorial;
+    }
+    console.log(`El Factorial es: ${Factorial(3)}`);
 })();

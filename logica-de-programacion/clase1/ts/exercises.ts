@@ -15,22 +15,34 @@
 
   //Desarrolla un programa que solicite al usuario un número entero positivo y luego imprima todos los números pares desde 2 hasta ese número.
   function pairNumber(finalNumber: number) {
-    for( let i: number = 2; i <= finalNumber; i += 2) {
+    for (let i: number = 2; i <= finalNumber; i += 2) {
       console.log(i);
     }
   }
 
-  pairNumber(10)
+  pairNumber(10);
 
   //Escribe un programa que solicite al usuario un número entero positivo y luego imprima la tabla de multiplicar de ese número hasta el 10.
   function multiplicationTable(number: number) {
-    let counter: number = 1
-    while(counter <= 10) {
-      console.log(number * counter)
+    let counter: number = 1;
+    while (counter <= 10) {
+      console.log(number * counter);
       counter++;
     }
   }
 
-  multiplicationTable(5)
+  multiplicationTable(5);
 
-})()
+  //Crea un programa que calcule el factorial de un número ingresado por el usuario.
+  function Factorial(number: number): number {
+    let counter: number = 1;
+    let factorial: number = 1;
+    while (counter <= number) {
+      factorial *= counter;
+      counter++;
+    }
+    return factorial;
+  }
+
+  console.log(`El Factorial es: ${Factorial(3)}`);
+})();
