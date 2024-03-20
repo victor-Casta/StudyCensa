@@ -59,4 +59,19 @@
         }
     }
     NumbersPrimosMenores(10);
+    //Escribe un programa que genere e imprima los primeros 20 términos de la secuencia de Fibonacci.
+    function Fibonnacci(number) {
+        let a = 0;
+        let b = 1;
+        let counter = 0;
+        console.log(a);
+        while (counter <= number) {
+            let temp = b;
+            b = a + b;
+            a = temp;
+            console.log(a);
+            counter++;
+        }
+    }
+    Fibonnacci(10);
 })();

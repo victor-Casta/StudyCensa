@@ -52,7 +52,7 @@
     while (counter <= number) {
       let IsPrimo: boolean = true;
       let j: number = 2
-      while(j < counter ) {
+      while (j < counter) {
         if (counter % j === 0) {
           IsPrimo = false;
           break;
@@ -67,4 +67,23 @@
   }
 
   NumbersPrimosMenores(10);
+
+  //Escribe un programa que genere e imprima los primeros 20 términos de la secuencia de Fibonacci.
+  function Fibonnacci(number: number): void {
+    let a: number = 0
+    let b: number = 1
+    let counter: number = 0
+
+    console.log(a)
+
+    while (counter <= number) {
+      let temp: number = b;
+      b = a + b;
+      a = temp;
+      console.log(a)
+      counter++;
+    }
+  }
+
+  Fibonnacci(10);
 })();
