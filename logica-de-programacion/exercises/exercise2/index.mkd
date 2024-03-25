@@ -5,9 +5,9 @@
 5. Escribe un programa que solicite al usuario un número entero y luego imprima los números pares desde 2 hasta ese número utilizando un bucle while.
 6. Escribe un programa que calcule el factorial de un número ingresado por el usuario utilizando un bucle while.
 7. Escribe un programa que solicite al usuario un número entero positivo y luego imprima la suma de los dígitos de ese número utilizando un bucle while.
-Escribe un programa que imprima los números del 1 al 100 que sean múltiplos de 3 utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima los números impares desde 1 hasta ese número utilizando un bucle while.
-Escribe un programa que calcule la suma de los números pares del 1 al 100 utilizando un bucle while.
+8. Escribe un programa que imprima los números del 1 al 100 que sean múltiplos de 3 utilizando un bucle while.
+9. Escribe un programa que solicite al usuario un número entero positivo y luego imprima los números impares desde 1 hasta ese número utilizando un bucle while.
+10. Escribe un programa que calcule la suma de los números pares del 1 al 100 utilizando un bucle while.
 Escribe un programa que imprima los números del 10 al 1 en orden descendente utilizando un bucle while.
 Escribe un programa que solicite al usuario un número entero positivo y luego imprima la secuencia de Fibonacci hasta ese número utilizando un bucle while.
 Escribe un programa que solicite al usuario un número entero y luego imprima los primeros n términos de la secuencia de Fibonacci utilizando un bucle while.
