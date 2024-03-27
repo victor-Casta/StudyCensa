@@ -21,7 +21,7 @@ Esta carpeta contiene ejercicios para repasar conceptos de lógica de programaci
 
   - **Lenguaje TypeScript**
   - [Ejercicio1.py](logica-de-programacion/exercises/exercise1/typescript/exercises.ts)
-  - [Ejercicio2.py](logica-de-programacion/exercises/exercise2/typescript)
+  - [Ejercicio2.py](logica-de-programacion/exercises/exercise2/typescript/exercise2.ts)
   - ...
 
 #### Testing
