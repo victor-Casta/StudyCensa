@@ -8,13 +8,13 @@
 8. Escribe un programa que imprima los números del 1 al 100 que sean múltiplos de 3 utilizando un bucle while.
 9. Escribe un programa que solicite al usuario un número entero positivo y luego imprima los números impares desde 1 hasta ese número utilizando un bucle while.
 10. Escribe un programa que calcule la suma de los números pares del 1 al 100 utilizando un bucle while.
-Escribe un programa que imprima los números del 10 al 1 en orden descendente utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima la secuencia de Fibonacci hasta ese número utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero y luego imprima los primeros n términos de la secuencia de Fibonacci utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima los divisores de ese número utilizando un bucle while.
-Escribe un programa que imprima los números primos del 1 al 100 utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima si ese número es primo o no utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima la tabla de multiplicar de ese número utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima si ese número es un número perfecto utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima la suma de los primeros n términos de la serie armónica utilizando un bucle while.
-Escribe un programa que solicite al usuario un número entero positivo y luego imprima si ese número es un palíndromo o no utilizando un bucle while.
+11. Escribe un programa que imprima los números del 10 al 1 en orden descendente utilizando un bucle while.
+12. Escribe un programa que solicite al usuario un número entero positivo y luego imprima la secuencia de Fibonacci hasta ese número utilizando un bucle while.
+13. Escribe un programa que solicite al usuario un número entero y luego imprima los primeros n términos de la secuencia de Fibonacci utilizando un bucle while.
+14. Escribe un programa que solicite al usuario un número entero positivo y luego imprima los divisores de ese número utilizando un bucle while.
+15. Escribe un programa que imprima los números primos del 1 al 100 utilizando un bucle while.
+16. Escribe un programa que solicite al usuario un número entero positivo y luego imprima si ese número es primo o no utilizando un bucle while.
+17. Escribe un programa que solicite al usuario un número entero positivo y luego imprima la tabla de multiplicar de ese número utilizando un bucle while.
+18. Escribe un programa que solicite al usuario un número entero positivo y luego imprima si ese número es un número perfecto utilizando un bucle while.
+19. Escribe un programa que solicite al usuario un número entero positivo y luego imprima la suma de los primeros n términos de la serie armónica utilizando un bucle while.
+20. Escribe un programa que solicite al usuario un número entero positivo y luego imprima si ese número es un palíndromo o no utilizando un bucle while.
