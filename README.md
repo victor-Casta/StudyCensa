@@ -9,19 +9,19 @@ El objetivo de este repositorio es documentar cada uno de los procesos de aprend
 Esta carpeta contiene ejercicios para repasar conceptos de lógica de programación.
 
 #### Ejercicios
-- **Lenguaje JavaScript**
-  - [Ejercicio1.js](logica-de-programacion/exercises/exercise1/javascript)
-  - [Ejercicio2.js](logica-de-programacion/exercises/exercise2/javascript)
-  - ...
-
-- **Lenguaje Python**
+- **Python** 🐍
   - [Ejercicio1.py](logica-de-programacion/exercises/exercise1/python/exercises.py)
   - [Ejercicio2.py](logica-de-programacion/exercises/exercise2/python/exercise2.py)
   - ...
 
-  - **Lenguaje TypeScript**
-  - [Ejercicio1.py](logica-de-programacion/exercises/exercise1/typescript/exercises.ts)
-  - [Ejercicio2.py](logica-de-programacion/exercises/exercise2/typescript/exercise2.ts)
+- **JavaScript** ⚡️
+  - [Ejercicio1.js](logica-de-programacion/exercises/exercise1/javascript)
+  - [Ejercicio2.js](logica-de-programacion/exercises/exercise2/javascript)
+  - ...
+
+- **TypeScript** 📝
+  - [Ejercicio1.ts](logica-de-programacion/exercises/exercise1/typescript/exercises.ts)
+  - [Ejercicio2.ts](logica-de-programacion/exercises/exercise2/typescript/exercise2.ts)
   - ...
 
 #### Testing
