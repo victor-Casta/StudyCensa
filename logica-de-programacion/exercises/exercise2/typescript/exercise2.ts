@@ -68,16 +68,48 @@ function digits_addition(number: string): number {
   return suma;
 }
 
+function threeMultiply(): void {
+  let counter = 1;
+  while (counter <= 100) {
+    console.log(counter * 3);
+    counter++;
+  }
+}
 
-console.log("1 -> Numeros del 1 al 10");
-console.log("2 -> Suma de los 100 primeros numeros naturales");
-console.log("3 -> Imprimir números");
-console.log("4 -> Numeros pares del 1 al 10");
-console.log("5 -> Numeros pares hasta n numero");
-console.log("6 -> Factorial de un numero");
-console.log("7 -> Suma de los digitos de un numero");
+function oddNumbers(number: string): void {
+  let counter = 1;
+  while (counter <= parseInt(number)) {
+    if (counter % 2!== 0) {
+      console.log(counter);
+    }
+    counter++;
+  }
+}
+
+function additionPairNumbers(): number {
+  let counter = 1
+  let suma = 0
+  while(counter <= 100) {
+    if(counter % 2 == 0) {
+      suma += counter
+    }
+    counter++;
+  }
+  return suma;
+}
 
 function preguntarOpcion() {
+  console.log("1 -> Numeros del 1 al 10");
+  console.log("2 -> Suma de los 100 primeros numeros naturales");
+  console.log("3 -> Imprimir números");
+  console.log("4 -> Numeros pares del 1 al 10");
+  console.log("5 -> Numeros pares hasta n numero");
+  console.log("6 -> Factorial de un numero");
+  console.log("7 -> Suma de los digitos de un numero");
+  console.log("8 -> Multiplos de 3 hasta 100");
+  console.log("9 -> Numeros impares hasta n numero");
+  console.log("10 -> Suma de numeros pares del 1 al 100");
+
   rl.question("Selecciona una opción o 0 para salir: ", (option: string) => {
     switch (option) {
       case "1":
@@ -114,6 +146,17 @@ function preguntarOpcion() {
         });
         return;
       case "8":
+        threeMultiply();
+        break;
+      case "9":
+        rl.question("Ingresa un número: ", (numero: string) => {
+          oddNumbers(numero);
+          preguntarOpcion();
+        });
+        return;
+      case "10":
+        console.log(`la suma de los numeros pares del 1 al 100 es: ${additionPairNumbers()}`);
+        break;
       case "0":
         console.log("Saliendo...");
         rl.close();
