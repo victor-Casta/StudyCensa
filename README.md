@@ -1,11 +1,11 @@
-# StudyCensa
+# StudyCensa ✅
 
-## Objetivo
+## Objetivo ✅
 El objetivo de este repositorio es documentar cada uno de los procesos de aprendizaje en el área de desarrollo de software.
 
-## Carpetas
+## Carpetas ✅
 
-### logica-de-programacion
+### logica-de-programacion ✅
 Esta carpeta contiene ejercicios para repasar conceptos de lógica de programación.
 
 #### Ejercicios
@@ -16,7 +16,7 @@ Esta carpeta contiene ejercicios para repasar conceptos de lógica de programaci
 
 - **JavaScript** ⚡️
   - [Ejercicio1.js](logica-de-programacion/exercises/exercise1/javascript)
-  - [Ejercicio2.js](logica-de-programacion/exercises/exercise2/javascript)
+  - [Ejercicio2.js](logica-de-programacion/exercises/exercise2/javascript/exercise2.js)
   - ...
 
 - **TypeScript** 📝
@@ -24,8 +24,8 @@ Esta carpeta contiene ejercicios para repasar conceptos de lógica de programaci
   - [Ejercicio2.ts](logica-de-programacion/exercises/exercise2/typescript/exercise2.ts)
   - ...
 
-#### Testing
+#### Testing ✅
 Esta carpeta contiene los tests necesarios para hacer pruebas a los ejercicios.
 
-### guia-de-retos.mkd
+### guia-de-retos.mkd ✅
 Este archivo contiene la guía de retos para los ejercicios de lógica de programación.
