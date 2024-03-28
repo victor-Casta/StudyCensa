@@ -88,6 +88,133 @@ function additionPairNumbers() {
     }
     return suma;
 }
+function numbersTenToOne() {
+    var counter = 10;
+    while (counter > 0) {
+        console.log(counter);
+        counter -= 1;
+    }
+}
+function fibonacci(number) {
+    var a = 0;
+    var b = 1;
+    var counter = 0;
+    console.log(a);
+    while (counter <= parseInt(number)) {
+        var temp = b;
+        b = a + b;
+        a = temp;
+        console.log(a);
+        counter++;
+    }
+}
+function fibonacciNTerms(n) {
+    var a = 0;
+    var b = 1;
+    var counter = 1;
+    console.log(a);
+    while (counter < parseInt(n)) {
+        var temp = b;
+        b = a + b;
+        a = temp;
+        console.log(a);
+        counter++;
+    }
+}
+function divisor(number) {
+    var counter = 1;
+    var parsedNumber = parseInt(number);
+    while (counter <= parsedNumber) {
+        if (parsedNumber % counter === 0) {
+            console.log("el numero ", counter, "es divisible por ", number);
+        }
+        counter++;
+    }
+}
+function PrimeNumbers() {
+    var i = 2;
+    while (i <= 100) {
+        var isPrimo = true;
+        var j = 2;
+        while (j < i) {
+            if (i % j === 0) {
+                isPrimo = false;
+                break;
+            }
+            j++;
+        }
+        if (isPrimo) {
+            console.log(i);
+        }
+        i++;
+    }
+}
+function isPrimeNumber(number) {
+    if (number < 2) {
+        return false;
+    }
+    for (var i = 2; i <= Math.sqrt(number); i++) {
+        if (number % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+function multiply(number) {
+    var counter = 1;
+    var parsedNumber = parseInt(number);
+    while (counter <= 10) {
+        console.log("".concat(parsedNumber, " * ").concat(counter, " = ").concat(parsedNumber * counter));
+        counter++;
+    }
+}
+function perfectNumber(number) {
+    var counter = 1;
+    var suma = 0;
+    var parsedNumber = parseInt(number);
+    while (counter < parsedNumber) {
+        if (parsedNumber % counter === 0) {
+            suma += counter;
+        }
+        counter++;
+    }
+    if (suma === parsedNumber) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+function armonicSerie(number) {
+    var n = parseInt(number);
+    if (Number.isNaN(n) || n <= 0) {
+        console.log("Debe ingresar un número entero positivo.");
+        rl.close();
+        return;
+    }
+    var i = 1;
+    var suma = 0;
+    while (i <= n) {
+        suma += 1 / i;
+        i++;
+    }
+    console.log("La suma de los primeros ".concat(n, " t\u00E9rminos de la serie arm\u00F3nica es: ").concat(suma));
+}
+function palindrome(number) {
+    var numberFormat = String(number);
+    var reversedNumber = '';
+    var i = numberFormat.length - 1;
+    while (i >= 0) {
+        reversedNumber += numberFormat[i];
+        i--;
+    }
+    if (numberFormat === reversedNumber) {
+        console.log("".concat(number, " es un pal\u00EDndromo."));
+    }
+    else {
+        console.log("".concat(number, " no es un pal\u00EDndromo."));
+    }
+}
 function preguntarOpcion() {
     console.log("1 -> Numeros del 1 al 10");
     console.log("2 -> Suma de los 100 primeros numeros naturales");
@@ -99,6 +226,16 @@ function preguntarOpcion() {
     console.log("8 -> Multiplos de 3 hasta 100");
     console.log("9 -> Numeros impares hasta n numero");
     console.log("10 -> Suma de numeros pares del 1 al 100");
+    console.log("11 -> Numeros del 10 al 1");
+    console.log("12 -> Serie fibonacci");
+    console.log("13 -> Serie fibonacci hasta n términos");
+    console.log("14 -> Divisores de un numero");
+    console.log("15 -> Numeros primos del 1 al 100");
+    console.log("16 -> Comprobar si un número es primo");
+    console.log("17 -> Tabla de multiplicar");
+    console.log("18 -> Numero perfecto");
+    console.log("19 -> Suma de serie armonica");
+    console.log("20 -> Numeros palindromos");
     rl.question("Selecciona una opción o 0 para salir: ", function (option) {
         switch (option) {
             case "1":
@@ -146,6 +283,64 @@ function preguntarOpcion() {
             case "10":
                 console.log("la suma de los numeros pares del 1 al 100 es: ".concat(additionPairNumbers()));
                 break;
+            case "11":
+                numbersTenToOne();
+                break;
+            case "12":
+                rl.question("Ingresa un número: ", function (numero) {
+                    fibonacci(numero);
+                    preguntarOpcion();
+                });
+                return;
+            case "13":
+                rl.question("Ingresa un número: ", function (numero) {
+                    fibonacciNTerms(numero);
+                    preguntarOpcion();
+                });
+                return;
+            case "14":
+                rl.question("Ingresa un número: ", function (numero) {
+                    divisor(numero);
+                    preguntarOpcion();
+                });
+                return;
+            case "15":
+                PrimeNumbers();
+                break;
+            case "16":
+                rl.question("Ingresa un número: ", function (numero) {
+                    console.log(isPrimeNumber(parseInt(numero)) === true
+                        ? "El numero es primo"
+                        : "El numero no es primo");
+                    preguntarOpcion();
+                });
+                return;
+            case "17":
+                rl.question("Ingresa un número: ", function (numero) {
+                    multiply(numero);
+                    preguntarOpcion();
+                });
+                return;
+            case "18":
+                rl.question("Ingresa un número: ", function (numero) {
+                    console.log(perfectNumber(numero) === true
+                        ? "El numero es perfecto"
+                        : "El numero no es perfecto");
+                    preguntarOpcion();
+                });
+                return;
+            case "19":
+                rl.question("Ingresa un número: ", function (numero) {
+                    armonicSerie(numero);
+                    preguntarOpcion();
+                });
+                return;
+            case "20":
+                rl.question("Ingresa un número: ", function (numero) {
+                    palindrome(numero);
+                    preguntarOpcion();
+                });
+                return;
             case "0":
                 console.log("Saliendo...");
                 rl.close();
