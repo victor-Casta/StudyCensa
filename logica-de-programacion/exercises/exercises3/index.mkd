@@ -1,0 +1,40 @@
+1. Calculadora de IMC (Índice de Masa Corporal):
+  Crea un programa que solicite al usuario su peso (en kilogramos) y su altura (en metros).
+  Calcula el IMC utilizando la fórmula: IMC = peso / (altura * altura).
+  Basado en el IMC calculado, muestra un mensaje que indique si la persona está bajo peso, peso normal, sobrepeso, obesidad, etc.
+2. Conversor de Monedas:
+  Crea un programa que permita al usuario convertir entre diferentes monedas (por ejemplo, dólares a euros, euros a libras, etc.).
+  Muestra un menú con diferentes opciones de conversión.
+  Solicita al usuario el monto a convertir y realiza la conversión.
+3. Calculadora de Descuento:
+  Crea un programa que solicite al usuario el precio de un producto y el porcentaje de descuento aplicado.
+  Calcula el precio final después del descuento y muéstralo al usuario.
+4.Juego de Piedra, Papel o Tijera:
+  Implementa el clásico juego de piedra, papel o tijera.
+  Solicita al usuario que elija su jugada (piedra, papel o tijera) y luego genera aleatoriamente la jugada del computador.
+  Determina quién es el ganador y muestra un mensaje al usuario.
+5. Verificador de Año Bisiesto (ampliación):
+  Mejora el verificador de año bisiesto para que también valide el rango de años.
+  Solicita al usuario que ingrese un año y verifica si está dentro de un rango específico (por ejemplo, 1900-2100).
+  Si el año está dentro del rango, realiza la verificación de si es bisiesto o no.
+6. Generador de Contraseñas Seguras:
+  Crea un programa que genere una contraseña segura para el usuario.
+  La contraseña debe contener una combinación de letras mayúsculas, minúsculas, números y caracteres especiales.
+  Pregunta al usuario la longitud deseada para la contraseña y genera una contraseña aleatoria con esa longitud.
+7. Convertidor de Unidades:
+  Crea un programa que permita al usuario convertir entre diferentes unidades de medida (por ejemplo, metros a pulgadas, litros a galones, etc.).
+  Muestra un menú con diferentes opciones de conversión y solicita al usuario que elija una opción.
+8. Verificador de Palíndromos:
+  Solicita al usuario que ingrese una palabra o frase.
+  Verifica si la palabra o frase ingresada es un palíndromo (es decir, se lee igual de adelante hacia atrás que de atrás hacia adelante).
+  Muestra un mensaje indicando si es un palíndromo o no.
+9. Simulador de Cajero Automático:
+  Crea un programa que simule un cajero automático.
+  Muestra un menú con diferentes opciones (consultar saldo, retirar dinero, depositar dinero, etc.).
+10. Solicita al usuario que seleccione una opción y realiza la acción correspondiente.
+
+11. Juego de adivinanzas:
+  Genera un numero aleatorio entre 1 y 100 y guárdalo como la respuesta que el jugador debe adivinar, para esto deben importar la librería random y definir la variable de la respuesta de la siguiente manera respuesta = random.randint(1, 100)
+  Pídele al jugador que adivine el numero
+  Si la suposición del jugador es incorrecta, indícale si el número que debe adivinar es mayor o menor que su suposición
+  Continua este proceso hasta que el jugador adivine correctamente el numero o decida salir del juego.
