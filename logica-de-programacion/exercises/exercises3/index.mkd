@@ -9,7 +9,7 @@
 3. Calculadora de Descuento:
   Crea un programa que solicite al usuario el precio de un producto y el porcentaje de descuento aplicado.
   Calcula el precio final después del descuento y muéstralo al usuario.
-4.Juego de Piedra, Papel o Tijera:
+4. Juego de Piedra, Papel o Tijera:
   Implementa el clásico juego de piedra, papel o tijera.
   Solicita al usuario que elija su jugada (piedra, papel o tijera) y luego genera aleatoriamente la jugada del computador.
   Determina quién es el ganador y muestra un mensaje al usuario.
