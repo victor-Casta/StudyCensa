@@ -1,3 +1,5 @@
+import random
+
 def imc_calculator(weight, height):
   imc = weight / (height * height)
   if imc < 18.5:
@@ -52,10 +54,32 @@ def discount_calculator(product_price, discount):
   price_with_discount = product_price - total_discount
   return price_with_discount
 
+def game(user_option):
+  options_game = ['piedra', 'papel', 'tijera']
+  random_option = random.choice(options_game)
+  print(f'Maquina ha selccionado: {random_option}')
+  if user_option == random_option:
+    print('empate!')
+  elif user_option == options_game[0] and random_option == options_game[1]:
+    print('Gana maquina!')
+  elif user_option == options_game[0]  and random_option == options_game[2]:
+    print('Gana Jugador 1!')
+  elif user_option == options_game[1] and random_option == options_game[2]:
+    print('Gana Maquina!')
+  elif user_option == options_game[1] and random_option == options_game[0]:
+    print('Gana Jugador 1!')
+  elif user_option == options_game[2] and random_option == options_game[0]:
+    print('Gana Maquina!')
+  elif user_option == options_game[2] and random_option == options_game[1]:
+    print('Gana Jugador 1!')
+  else:
+    print('opcion no valida')
+
 while True:
   print('1 -> Calculadora de IMC')
   print('2 -> Conversor de monedas')
   print('3 -> Calculadora de descuentos')
+  print('4 -> Piedra, papel o tijera')
   print('0 -> salir')
 
   option = int(input('Ingresa una opcion: '))
@@ -70,6 +94,9 @@ while True:
     product = int(input('Ingresa el valor del producto: '))
     discount_number = int(input('Ingresa el valor de descuento: '))
     print(discount_calculator(product, discount_number))
+  elif option == 4:
+    user_option = str(input('Ingresa una opcion: '))
+    game(user_option)
   elif option == 0:
     print('saliendo...')
     break
