@@ -75,11 +75,21 @@ def game(user_option):
   else:
     print('opcion no valida')
 
+def leap_year(year):
+  if 1998 <= year <= 2024:
+    if ((year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)):
+      return True
+    else:
+      return False
+  else:
+    return None
+
 while True:
   print('1 -> Calculadora de IMC')
   print('2 -> Conversor de monedas')
   print('3 -> Calculadora de descuentos')
   print('4 -> Piedra, papel o tijera')
+  print('5 -> Verificador de año bisiesto')
   print('0 -> salir')
 
   option = int(input('Ingresa una opcion: '))
@@ -97,6 +107,15 @@ while True:
   elif option == 4:
     user_option = str(input('Ingresa una opcion: '))
     game(user_option)
+  elif option == 5:
+    option = int(input('Ingrese un año: '))
+    resultado = leap_year(option)
+    if resultado is None:
+      print('El año debe estar en el rango de 1998 a 2024')
+    elif resultado:
+      print('El año es bisiesto')
+    else:
+      print('El año no es bisiesto')
   elif option == 0:
     print('saliendo...')
     break
