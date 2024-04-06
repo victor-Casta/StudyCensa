@@ -1,4 +1,0 @@
-
-
-
-atm_simulator()
