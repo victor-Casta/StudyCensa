@@ -31,9 +31,8 @@
 9. Simulador de Cajero Automático:
   Crea un programa que simule un cajero automático.
   Muestra un menú con diferentes opciones (consultar saldo, retirar dinero, depositar dinero, etc.).
-10. Solicita al usuario que seleccione una opción y realiza la acción correspondiente.
-
-11. Juego de adivinanzas:
+  Solicita al usuario que seleccione una opción y realiza la acción correspondiente.
+10. Juego de adivinanzas:
   Genera un numero aleatorio entre 1 y 100 y guárdalo como la respuesta que el jugador debe adivinar, para esto deben importar la librería random y definir la variable de la respuesta de la siguiente manera respuesta = random.randint(1, 100)
   Pídele al jugador que adivine el numero
   Si la suposición del jugador es incorrecta, indícale si el número que debe adivinar es mayor o menor que su suposición
