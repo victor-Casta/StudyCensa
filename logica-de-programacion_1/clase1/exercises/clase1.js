@@ -53,3 +53,11 @@ function gradeAverage(notes) {
 
 let notesList = [4.0, 2.7, 3.2]
 console.log(`El promedio de notas es: ${gradeAverage(notesList)}`)
+
+//condicionales
+
+function age(age) {
+  age >= 18? console.log('es mayor de edad'): console.log('es menor de edad')
+}
+
+age(18)
